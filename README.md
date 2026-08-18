@@ -220,7 +220,7 @@ https://placehold.co/600x600 → https://cdn.olado.rw/products/{id}/main.jpg
 All screens have access to the floating WhatsApp button:
 - Link: `https://wa.me/250783229174`
 - Pre-filled messages with product names on product detail page
-- Contact support from profile
+- Contact support from profile.
 
 ## License
 
