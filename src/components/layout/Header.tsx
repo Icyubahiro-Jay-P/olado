@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, TouchableOpacity, Platform } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
-import { Link, useRouter } from "expo-router";
+import { useRouter } from "expo-router";
 import { useCartStore, useWishlistStore } from "@/stores";
 import { Colors, Shadows } from "@/constants/theme";
 
