@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Olado - Global Styles */
+
+/* Custom scrollbar for web */
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+/* Ensure smooth transitions */
+* {
+  -webkit-tap-highlight-color: transparent;
+}
