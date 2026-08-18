@@ -83,9 +83,9 @@ export default function Header({ showBack, showSearch = true }: HeaderProps) {
           <Ionicons name="bag-outline" size={24} color="white" />
           {cartCount > 0 && (
             <View className="absolute -top-1.5 -right-1.5 bg-olado-accent rounded-full min-w-[18px] h-[18px] items-center justify-center">
-              <View className="text-white text-[9px] font-bold">
+              <Text className="text-white text-[9px] font-bold">
                 {cartCount > 99 ? "99+" : cartCount}
-              </View>
+              </Text>
             </View>
           )}
         </TouchableOpacity>
