@@ -5,6 +5,7 @@
     "jsx": "react-jsx",
     "skipLibCheck": true,
     "types": [],
+    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
     "paths": {
       "@/*": [
