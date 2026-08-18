@@ -480,9 +480,7 @@ export default function CheckoutScreen() {
                 Shipping
               </Text>
               <Text className="text-olado-text-secondary text-sm capitalize">
-                {shipping === "cod"
-                  ? "Cash on Delivery"
-                  : `${shipping} Delivery`}
+                {shipping === "pickup" ? "Pickup" : `${shipping} Delivery`}
                 {freeShipping ? " (Free)" : ""}
               </Text>
             </View>
