@@ -51,6 +51,13 @@ export const BorderRadius = {
   full: 9999,
 } as const;
 
+import { Platform } from "react-native";
+
+const webShadow = (x: number, y: number, r: number, o: number) =>
+  Platform.OS === "web"
+    ? { boxShadow: `${x}px ${y}px ${r}px rgba(0,0,0,${o})` }
+    : {};
+
 export const Shadows = {
   sm: {
     shadowColor: "#000",
@@ -58,6 +65,7 @@ export const Shadows = {
     shadowOpacity: 0.08,
     shadowRadius: 2,
     elevation: 2,
+    ...webShadow(0, 1, 2, 0.08),
   },
   md: {
     shadowColor: "#000",
@@ -65,6 +73,7 @@ export const Shadows = {
     shadowOpacity: 0.12,
     shadowRadius: 4,
     elevation: 4,
+    ...webShadow(0, 2, 4, 0.12),
   },
   lg: {
     shadowColor: "#000",
@@ -72,5 +81,6 @@ export const Shadows = {
     shadowOpacity: 0.15,
     shadowRadius: 8,
     elevation: 6,
+    ...webShadow(0, 4, 8, 0.15),
   },
 } as const;
