@@ -7,7 +7,7 @@ export const categories: Category[] = [
     slug: "appliances",
     icon: "🏠",
     image: "https://placehold.co/200x200/E8F5E9/2E7D32?text=Appliances",
-    parentId: null,
+    parentId: undefined,
     productCount: 45,
   },
   {
@@ -61,7 +61,7 @@ export const categories: Category[] = [
     slug: "baby-products",
     icon: "👶",
     image: "https://placehold.co/200x200/E8F5E9/2E7D32?text=Baby+Products",
-    parentId: null,
+    parentId: undefined,
     productCount: 38,
   },
   {
@@ -106,7 +106,7 @@ export const categories: Category[] = [
     slug: "computer",
     icon: "💻",
     image: "https://placehold.co/200x200/E8F5E9/2E7D32?text=Computer",
-    parentId: null,
+    parentId: undefined,
     productCount: 52,
   },
   {
@@ -151,7 +151,7 @@ export const categories: Category[] = [
     slug: "fashion",
     icon: "👗",
     image: "https://placehold.co/200x200/E8F5E9/2E7D32?text=Fashion",
-    parentId: null,
+    parentId: undefined,
     productCount: 87,
   },
   {
@@ -205,7 +205,7 @@ export const categories: Category[] = [
     slug: "health-beauty",
     icon: "✨",
     image: "https://placehold.co/200x200/E8F5E9/2E7D32?text=Health+%26+Beauty",
-    parentId: null,
+    parentId: undefined,
     productCount: 63,
   },
   {
@@ -250,7 +250,7 @@ export const categories: Category[] = [
     slug: "home",
     icon: "🏡",
     image: "https://placehold.co/200x200/E8F5E9/2E7D32?text=Home",
-    parentId: null,
+    parentId: undefined,
     productCount: 71,
   },
   {
@@ -295,7 +295,7 @@ export const categories: Category[] = [
     slug: "kitchen-dining",
     icon: "🍳",
     image: "https://placehold.co/200x200/E8F5E9/2E7D32?text=Kitchen+%26+Dining",
-    parentId: null,
+    parentId: undefined,
     productCount: 44,
   },
   {
@@ -340,7 +340,7 @@ export const categories: Category[] = [
     slug: "made-in-rwanda",
     icon: "🇷🇼",
     image: "https://placehold.co/200x200/E8F5E9/2E7D32?text=Made+In+Rwanda",
-    parentId: null,
+    parentId: undefined,
     productCount: 29,
   },
   {
@@ -376,7 +376,7 @@ export const categories: Category[] = [
     slug: "organic-products",
     icon: "🌿",
     image: "https://placehold.co/200x200/E8F5E9/2E7D32?text=Organic+Products",
-    parentId: null,
+    parentId: undefined,
     productCount: 35,
   },
   {
@@ -412,7 +412,7 @@ export const categories: Category[] = [
     slug: "phones-tablets",
     icon: "📱",
     image: "https://placehold.co/200x200/E8F5E9/2E7D32?text=Phones+%26+Tablets",
-    parentId: null,
+    parentId: undefined,
     productCount: 56,
   },
   {
@@ -457,7 +457,7 @@ export const categories: Category[] = [
     slug: "sporting-goods",
     icon: "⚽",
     image: "https://placehold.co/200x200/E8F5E9/2E7D32?text=Sporting+Goods",
-    parentId: null,
+    parentId: undefined,
     productCount: 31,
   },
   {
