@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
   RefreshControl,
   Platform,
+  useWindowDimensions,
 } from "react-native";
 import { useRouter } from "expo-router";
 import { Ionicons } from "@expo/vector-icons";
@@ -28,6 +29,7 @@ import { formatPrice } from "@/utils/format";
 
 export default function HomeScreen() {
   const router = useRouter();
+  const { width } = useWindowDimensions();
   const {
     data: featuredProducts,
     isLoading: productsLoading,
@@ -189,7 +191,7 @@ export default function HomeScreen() {
             contentContainerStyle={{ paddingLeft: 16, paddingRight: 8 }}
           >
             {featuredProducts?.slice(0, 8).map((product) => (
-              <View key={product.id} style={{ width: 160, marginRight: 12 }}>
+              <View key={product.id} style={{ width: Math.min(160, width * 0.4), marginRight: 12 }}>
                 <ProductCard product={product} variant="grid" />
               </View>
             ))}
