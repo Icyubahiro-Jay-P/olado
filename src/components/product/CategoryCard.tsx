@@ -1,6 +1,7 @@
 import React from "react";
 import { View, Text, TouchableOpacity } from "react-native";
 import { useRouter } from "expo-router";
+import { Ionicons } from "@expo/vector-icons";
 import { Category } from "@/types";
 import { Colors, BorderRadius, Shadows, Spacing } from "@/constants/theme";
 import { Image } from "expo-image";
@@ -103,6 +104,3 @@ export default function CategoryCard({
     </TouchableOpacity>
   );
 }
-
-// Need Ionicons for list variant
-import { Ionicons } from "@expo/vector-icons";
