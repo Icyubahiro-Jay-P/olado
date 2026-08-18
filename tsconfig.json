@@ -4,6 +4,7 @@
     "strict": true,
     "jsx": "react-jsx",
     "skipLibCheck": true,
+    "types": [],
     "baseUrl": ".",
     "paths": {
       "@/*": [
