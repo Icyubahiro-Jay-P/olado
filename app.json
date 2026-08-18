@@ -40,8 +40,7 @@
           "image": "./assets/splash.png",
           "backgroundColor": "#2E7D32"
         }
-      ],
-      "expo-image"
+      ]
     ]
   }
 }
