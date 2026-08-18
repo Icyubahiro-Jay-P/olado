@@ -69,9 +69,9 @@ export default function Header({ showBack, showSearch = true }: HeaderProps) {
           <Ionicons name="heart-outline" size={24} color="white" />
           {wishlistCount > 0 && (
             <View className="absolute -top-1.5 -right-1.5 bg-olado-accent rounded-full w-4 h-4 items-center justify-center">
-              <View className="text-white text-[9px] font-bold">
+              <Text className="text-white text-[9px] font-bold">
                 {wishlistCount > 9 ? "9+" : wishlistCount}
-              </View>
+              </Text>
             </View>
           )}
         </TouchableOpacity>
