@@ -12,7 +12,7 @@ export default function WhatsAppButton() {
   return (
     <TouchableOpacity
       onPress={handlePress}
-      className="absolute bottom-6 right-5 z-50"
+      className="absolute z-50 rounded-full bottom-6 right-5"
       activeOpacity={0.8}
       style={{
         shadowColor: "#25D366",
@@ -23,7 +23,7 @@ export default function WhatsAppButton() {
       }}
     >
       <View
-        className="w-14 h-14 rounded-full items-center justify-center"
+        className="items-center justify-center rounded-full w-14 h-14"
         style={{ backgroundColor: "#25D366" }}
       >
         <Ionicons name="logo-whatsapp" size={30} color="white" />
