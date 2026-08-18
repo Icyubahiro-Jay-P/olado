@@ -49,7 +49,7 @@ export default function ProductCard({
           contentFit="cover"
           transition={300}
           style={{ width: 120, height: 120 }}
-          placeholder={{ blurhash: "E8F5E9" }}
+          placeholder={undefined}
         />
         <View className="flex-1 p-3 justify-between">
           <View>
@@ -99,7 +99,7 @@ export default function ProductCard({
           contentFit="cover"
           transition={300}
           style={{ width: "100%", aspectRatio: 1 }}
-          placeholder={{ blurhash: "E8F5E9" }}
+          placeholder={undefined}
         />
 
         {discount > 0 && (
