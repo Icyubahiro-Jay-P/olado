@@ -11,6 +11,7 @@
   "dependencies": {
     "@expo/vector-icons": "^15.0.2",
     "@tanstack/react-query": "^5.101.4",
+    "axios": "^1.19.0",
     "expo": "^57.0.14",
     "expo-async-storage": "^0.0.0",
     "expo-constants": "~57.0.12",
