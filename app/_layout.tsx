@@ -54,7 +54,7 @@ export default function RootLayout() {
               presentation: "card",
             }}
           />
-          <Stack.Screen name="products" />
+          <Stack.Screen name="products/index" />
           <Stack.Screen name="wishlist" />
           <Stack.Screen
             name="checkout"
